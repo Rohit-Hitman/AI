@@ -1,0 +1,23 @@
+# # LLM + agent framework
+# langchain==0.1.0
+# ollama==0.1.9
+# sentence-transformers==2.5.1
+# torch==2.1.2
+# transformers==4.38.2
+# opensearch-py==2.6.0
+# pypdf==4.2.0
+# fastapi==0.110.3
+# uvicorn==0.29.0
+# tqdm==4.66.4
+# python-dotenv==1.0.1
+# langgraph==1.0.5
+
+# ----------------------
+sentence-transformers==2.5.1   # embeddings
+torch==2.1.2                  # required by embeddings
+transformers==4.38.2          # tokenizer / model backend
+opensearch-py==2.6.0          # vector DB client
+pypdf==4.2.0                  # PDF reader
+tqdm==4.66.4                  # progress bar (optional but useful)
+python-dotenv==1.0.1          # env config (optional)
+langchain==0.1.0

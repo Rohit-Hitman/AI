@@ -1,0 +1,31 @@
+
+Project Architecture
+
+llm-rag-assistant/
+│── app.py                 # FastAPI server
+│── graph.py               # LangGraph workflow + memory + token limit
+│── ingest.py              # Index PDFs into OpenSearch
+│── model.py               # LLM + embedding model + tokenizer
+│── memory.py              # Chat memory + summarizer
+│── utils.py               # Token counter + context reducer
+│── requirements.txt
+│── data/                  
+│── vectordb/ (ignored, OpenSearch instead)
+
+
+1. model.py
+    Add tokenizer for token counting.
+
+2. utils.py — Token Counter + Context Reducer
+
+3. memory.py — Local Conversation Memory + Summarizer
+
+4. ingest.py — Store documents in OpenSearch (unchanged)
+
+5. graph.py — LangGraph with retrieval + memory + token management
+
+Run the Scripts/App:
+    uvicorn app:api --reload
+
+#OpenSearch
+https://docs.opensearch.org/2.19/install-and-configure/install-opensearch/windows/

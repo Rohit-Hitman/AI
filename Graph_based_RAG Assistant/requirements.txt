@@ -1,0 +1,32 @@
+# Agent & orchestration
+langgraph>=0.0.40
+langchain-community>=0.3.0
+langchain>=0.1.0
+
+# Local LLM
+ollama>=0.1.9
+
+# Embeddings & token management
+sentence-transformers>=2.2.2
+transformers>=4.40.0
+torch>=2.0.0
+
+# OpenSearch client (3.x compatible)
+opensearch-py>=2.6.0
+
+# Documents
+pypdf>=4.0.0
+langchain-text-splitters>=0.3.0
+
+# API
+fastapi>=0.110.0
+uvicorn>=0.29.0
+
+# Utilities
+python-dotenv>=1.0.1
+tqdm>=4.66.0
+
+#-------------------------
+
+
+
