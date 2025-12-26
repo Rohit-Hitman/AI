@@ -1,0 +1,6 @@
+employee_id,name,department,experience_years,skills,salary_inr
+E001,Arun Kumar,Data Science,5,Python ML,850000
+E002,Meera Iyer,Analytics,4,SQL Power BI,650000
+E003,Ravi Sharma,Engineering,6,Python APIs,900000
+E004,Priya Verma,Data Science,3,Python Statistics,600000
+E005,Ankit Singh,ML Ops,5,Docker Kubernetes,950000
